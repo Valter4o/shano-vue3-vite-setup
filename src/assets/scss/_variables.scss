@@ -1,0 +1,73 @@
+$wrapper-width: 1280px;
+
+/* breakpoints */
+$screen-xs: 640px;
+$screen-s: 896px;
+$screen-m: 1024px;
+$screen-l: 1200px;
+$wrapper-width: $screen-l;
+$screen-xl: 1360px;
+/* fonts */
+$font-base: "base";
+$font-mazda-regular: "Mazda Regular";
+$font-mazda-medium: "Mazda Medium";
+$font-mazda-bold: "Mazda Bold";
+/* colors */
+/* background */
+$bg-base: #910a2d;
+$bg-primary: #f5f5f5;
+$bg-secondary: #f1f1f1;
+$bg-tertiary: #000000;
+$bg-quaternary: #ffffff;
+/* base colors */
+$c-monarch: #910a2d;
+$c-codGray: #101010;
+$c-red: #ff0000;
+$c-boulder: #757575;
+$c-wildSand: #f5f5f5;
+$c-alto: #d5d5d5;
+$c-mercury: #e7e7e7;
+$c-oceanGreen: #3cb878;
+$c-seaShell: #f1f1f1;
+$c-silverChalice: #b2b2b2;
+$c-diveGray: #6e6e6e;
+$c-dustyGray: #999999;
+$c-goldenTainoi: #ffd155;
+$c-nobel: #b3b3b3;
+$c-silver: #bbbbbb;
+$c-gray: #888888;
+$c-keyLimePie: #bfd532;
+$c-tango: #ed7222;
+$c-crimson: #ec1a27;
+$c-jewel: #107726;
+$c-japaneseLaurel: #0a910c;
+$c-vidaLoca: #489a1d;
+$c-pistachio: #a1bd09;
+$c-lemon: #f9e60a;
+$c-buttercup: #efb90b;
+$c-tahitiGold: #ea8009;
+$c-monza: #d70016;
+$c-shapire: #4c607e;
+$c-deepOcean: #032f4c;
+$c-steel: #3a3d46;
+$c-topaz: #9aaaa9;
+$c-chalkGray: #84898d;
+$c-pearlGray: #d0d3da;
+$c-sandstone: #e7e8df;
+$c-mica: #887068;
+$c-cooper: #847465;
+$c-jade: #434432;
+$c-emerald: #434d44;
+$c-white: #ffffff;
+$c-black: #000000;
+/* border */
+$border-light: #d5d5d5;
+$border-base: #999999;
+$border-dark: #757575;
+$border-focus: #000000;
+$border-error: #ff0000;
+$border-warning: #b3b3b3;
+$border-success: #3cb878;
+/* brand */
+$brand-primary: #910a2d;
+$brand-secondary: #101010;

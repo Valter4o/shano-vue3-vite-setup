@@ -1,0 +1,375 @@
+{
+  "car": {
+    "body": {
+      "5Door": "5-Türer"
+    },
+    "consumption": {
+      "ce": "{ce} l / 100 km (komb.)*",
+      "ev": "{ev} kWh / 100 km (komb.)*"
+    },
+    "data": {
+      "PostCode": "STANDORT",
+      "extraTitle": "Antrieb",
+      "Color": "Farbe",
+      "Comfort": "Komfort",
+      "Entertainment": "",
+      "Exterieur": "Außen",
+      "Infotainment": "Infotainment",
+      "Interieur": "Innenraum",
+      "Safety": "Sicherheit",
+      "PhoneEmbeddment": "Apple CarPlay / Android Auto",
+      "BOSESound": "BOSE Sound System",
+      "Speakerphone": "Freisprecheinrichtung",
+      "DigitalRadioTuner": "Digitalradio-Tuner",
+      "MZDConnect": "MZD Connect",
+      "NavigationSystem": "Navigationssystem",
+      "AuctomaticAirCon": "Klimatisierungsautomatik",
+      "HeadUp": "Head-Up Display",
+      "SeatHeating": "Sitzheizung",
+      "SteeringWheelHeating": "Lenkradheizung",
+      "SeatClimateControl": "Sitzklimatisierung",
+      "AdaptiveCruiseControl": "Adaptiver Tempomat",
+      "KeylessAccess": "Schlüsselloser Zugang",
+      "CruiseControl": "Tempomat",
+      "RearViewCamera": "Rückfahrkamera",
+      "LEDHeadlights": "LED Scheinwerfer",
+      "ParkingAid": "Einparkhilfe",
+      "360Minitor": "360° Monitor",
+      "LightAlloyRims": "Leichtmetallfelgen",
+      "DarkenedWindows": "Heck- und Seitenscheiben abgedunkelt",
+      "SlidingGlassRoof": "Glasschiebedach",
+      "FogLights": "Nebelscheinwerfer",
+      "ParkingAssistance": "Ausparkhilfe",
+      "BiXenonLights": "Bi-Xenon Scheinwerfer",
+      "LightRainSensor": "Licht- und Regensensor",
+      "TrafficSignRecognition": "Verkehrszeichenerkennung",
+      "LaneChangeAssistant": "Spurwechselassistent",
+      "LaneKeepAssistant": "Spurhalteassistent",
+      "CityEmergencyBrakeAssistant": "City-Notbremsassistent",
+      "Fabric": "Stoff",
+      "Leather": "Leder",
+      "Other": "Sonstige"
+    },
+    "doors": {
+      "label": "Türen"
+    },
+    "driveType": {
+      "4WD": "AWD (Allradantrieb)",
+      "FWD": "FWD (Vorderradantrieb)",
+      "label": "Fahrzeugdetails",
+      "RWD": "RWD (Hinterradantrieb)"
+    },
+    "efficiencyLabel": {
+      "bAndHigher": "B und höher",
+      "dAndHigher": "D un höher",
+      "label": "CO₂-Label"
+    },
+    "emission": "{value}g / km (komb.)*",
+    "emissionClass": {
+      "label": "Co² Effizienzklasse*"
+    },
+    "emissionConsumption": {
+      "label": "Emissionen / Kraftstoffverbrauch"
+    },
+    "engine": "Motor",
+    "engineExtras": {
+      "awd": "AWD",
+      "electric": "Elektromotor",
+      "mHybrid": "M Hybrid"
+    },
+    "enginePowerUnit": {
+      "horsePower": "PS",
+      "kilowatts": "kW"
+    },
+    "engineType": {
+      "skyactivG": "SKYAVTIV-G"
+    },
+    "extra": {
+      "boseSoundSystem": "BOSE® Sound-System"
+    },
+    "extras": "Extras",
+    "fuel": "Kraftstoff",
+    "fuelType": {
+      "diesel": "Diesel",
+      "electric": "Elekto",
+      "gasoline": "Benzin",
+      "hybrid": "Mild Hybrid",
+      "label": "Kraftstoff",
+      "petrol": "Benzin"
+    },
+    "grade": {
+      "exclusiveLine": "Exclusive Line",
+      "primeLine": "Prime-Line",
+      "selection": "Selection"
+    },
+    "modelName": {
+      "mazda3Fastback": "Mazda 3 Fastback"
+    },
+    "optionalAccessoires": {
+      "alloyRims": {
+        "label": "",
+        "price": ""
+      },
+      "trunkStorage": {
+        "label": "",
+        "price": ""
+      }
+    },
+    "optionalAccessoiresLabel": "Optional",
+    "overview": "Ihre Übersicht",
+    "power": {
+      "label": "PS",
+      "unit": "PS/kW"
+    },
+    "reach": "WLTP Reichweite innerorts",
+    "reachUnit": {
+      "kilometer": ""
+    },
+    "seats": {
+      "label": "Sitze"
+    },
+    "showDetails": "Details anzeigen",
+    "transmission": {
+      "label": "Schaltung"
+    },
+    "transmissionType": {
+      "automatic": {
+        "hl": "Automatik",
+        "sl": "Getriebe"
+      },
+      "manual": {
+        "hl": "6–Gang",
+        "sl": "Schaltgetriebe"
+      },
+      "manual5Gear": {
+        "hl": "5–Gang"
+      }
+    },
+    "type": {
+      "label": "Fahrzeugtyp"
+    }
+  },
+  "dealer": {
+    "callLine": "Persönlicher Kontakt ist Ihnen lieber?\nRufen Sie uns an.",
+    "distance": "km entfernt.",
+    "distanceValue": "{value} km entfernt",
+    "imprint": "Impressum",
+    "listing": {
+      "label": "Ihre Ansprechpartner"
+    },
+    "locationLabel": "Ihr Fahrzeug befindet sich hier:",
+    "moreInfo": "Mehr Info's",
+    "openingHours": "Bis [timevalue] geöffnet.",
+    "services": "Service"
+  },
+  "filter": {
+    "brand": {
+      "HL": "FAHRZEUGMARKEN"
+    },
+    "condition": {
+      "HL": "Zustand",
+      "dealerApproval": "Händlerzulassung",
+      "newCars": "Neuwagen",
+      "newVehicle": "Neuwagen",
+      "usedCars": "Gebrauchtwagen"
+    },
+    "budget": {
+      "currency": "€",
+      "HL": "Ihr Budget",
+      "input": {
+        "maximum": "Bis {value}€",
+        "range": "{value}€ – {value}€"
+      }
+    },
+    "carDetails": {
+      "HL": "Antrieb"
+    },
+    "colorAndData": {
+      "HL": "Farbe und Ausstattung"
+    },
+    "generalHeadline": "Ihre Detailsuche",
+    "grade": {
+      "HL": "Ihre Ausstattunglinie"
+    },
+    "HL": "Alle Filter",
+    "initialRegistration": {
+      "label": "Erstzulassung"
+    },
+    "installmentRate": {
+      "label": "Monatliche Rate"
+    },
+    "location": {
+      "HL": "In Ihrer Nähe"
+    },
+    "maximumValue": {
+      "label": "Maximum"
+    },
+    "mileage": {
+      "label": "Kilometerstand",
+      "unit": "{value} km"
+    },
+    "minimumValue": {
+      "label": "Minimum"
+    },
+    "models": {
+      "HL": "Ihre Modelle"
+    },
+    "totalPrice": {
+      "label": "Festpreis"
+    }
+  },
+  "footnote": {
+    "co2Emissions": "Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren (§ 2 Nrn. 5, 6, 6a Pkw-EnVKV in der gegenwärtigen geltenden Fassung) ermittelt. CO2-Emissionen, die durch die Produktion und Bereitstellung des Kraftstoffs bzw. anderer Energieträger entstehen, werden bei der Ermittlung der CO2-Emissionen gemäß der Richtlinie 1999/94/EG nicht berücksichtigt. Die Angaben beziehen sich nicht auf ein einzelnes Fahrzeug und sind nicht Bestandteil des Angebots, sondern dienen allein Vergleichszwecken zwischen den verschiedenen Fahrzeugtypen. Der Kraftstoffverbrauch und die CO2-Emission eines Fahrzeugs hängen nicht nur von der effizienten Ausnutzung des Kraftstoffs durch das Fahrzeug ab, sondern werden auch vom Fahrverhalten und anderen nichttechnischen Faktoren beeinflusst. CO2 ist das für die Erderwärmung hauptsächlich verantwortliche Treibhausgas. Abweichende Werte können sich in der Praxis auch durch Umwelteinflüsse, Straßen- und Verkehrsverhältnisse sowie Fahrzeugzustand, zusätzliche Ausstattung und Fahrzeugbeladung ergeben. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO2-Emissionen neuer Personenkraftwagen können dem Leitfaden über den Kraftstoffverbrauch, die CO2-Emissionen und den Stromverbrauch neuer Personenkraftwagen entnommen werden, der auch an allen Verkaufsstellen und bei der \"Deutschen Automobil Treuhand GmbH\" unter <a href=\"https://www.dat.de\" target=\"_blank\" rel=\"noopener noreferrer\">www.dat.de</a> unentgeltlich erhältlich ist.",
+    "redSaleBanner": "Der Mehrwertbonus beinhaltet eine Ausstattungsoption gratis und setzt sich aus einer Beteiligung der Mazda Motor Deutschland GmbH sowie des teilnehmenden Mazda Vertragshändlers zusammen. Verfügbarkeit der Ausstattungsoption abhängig vom gewählten Modell und der gewählten Ausstattungsvariante. Gültig für sofort verfügbaren Aktionsmodelle bei Erstzulassung auf Privatkunden und Gewerbekunden ohne Rahmenabkommen bis zum 31.03.2021 und nicht mit anderen Aktionen/Nachlässen kombinierbar.",
+    "redSaleBannerOld": "Gültig beim Kauf eines neuen Mazda und Zulassung bis zum 31. Dezember 2020. Beinhaltet den Kundenrabatt der teilnehmenden Mazda Vertragshändler. Dieses Angebot ist gültig für Privatkunden sowie Gewerbekunden ohne Rahmenabkommen und nicht mit anderen Aktionen/Nachlässen kombinierbar.",
+    "dealerPrice": "Aktionspreis des verkaufenden Händlers inkl. Überführung. Nicht mit anderen Aktionen kombinierbar. Gleichzeitig Anschaffungspreis für Leasingkalkulation.",
+    "installmentValue": "Repräsentatives Beispiel: Folgende Angaben stellen zugleich das 2/3-Beispiel gem. § 6a Abs. 4 PAngV dar. Ein Privat-Leasing-Angebot (Kilometer-Leasing) der Mazda Finance – einem Service-Center der Santander Consumer Leasing GmbH (Leasinggeber), Santander-Platz 1, 41061 Mönchengladbach. Für Verbraucher besteht ein Widerrufsrecht gemäß § 495 BGB.  Bonität vorausgesetzt.",
+    "financeClassic": "Repräsentatives Beispiel: Folgende Angaben stellen zugleich das 2/3-Beispiel gem. § 6a Abs. 4 PAngV dar. Ein Finanzierungsbeispiel der Mazda Finance – einem Service-Center der Santander Consumer Bank AG (Darlehensgeber), Santander-Platz 1, 41061 Mönchengladbach. Für Verbraucher besteht ein Widerrufsrecht gemäß § 495 BGB. Bonität vorausgesetzt.",
+    "reservation": "***Die Reservierung wird erst gültig, wenn Ihr ausgewähler Mazda Partner die Reservierung bestätigt hat.\nFür die Planung Ihrer Fahrzeuganfrage benötigen wir Ihre persönlichen Daten ",
+    "wltp": "",
+    "mx30": "3.000 € Nachlass auf den Nettopreis von Mazda Motors (Deutschland) GmbH (dadurch insgesamt 570 € Umsatzsteuerersparnis) und 6.000 € staatlichen Innovationsbonus durch die BAFA, der dort zu beantragen ist und zurückerstattet werden kann. Details finden Sie unter <a href='https://www.bafa.de/' target='_blank'>www.BAFA.de.</a>",
+    "optionsForFree": "Der Mehrwertbonus beinhaltet eine Ausstattungsoption gratis und setzt sich aus einer Beteiligung der Mazda Motors (Deutschland) GmbH sowie des teilnehmenden Mazda Vertragshändlers zusammen. Verfügbarkeit der Ausstattungsoption abhängig vom gewählten Modell und der gewählten Ausstattungsvariante. Maximaler Bonus beim Kauf eines Mazda CX-5 mit Sports-Line Plus Paket. Gültig für alle sofort verfügbaren Aktionsmodelle bei Zulassung auf Privatkunden und Gewerbekunden ohne Rahmenabkommen bis zum 31.03.2021 und nicht mit anderen Aktionen/Nachlässen kombinierbar.",
+    "optionsForFreeHWS": "Der Mehrwertbonus beinhaltet einen Preisvorteil gegenüber der UVP der Mazda Motor (Deutschland) GmbH und eine Ausstattungsoption gratis. Verfügbarkeit der Ausstattungsoption abhängig vom gewählten Modell und der gewählten Ausstattungsvariante. Maximaler Bonus beim Kauf eines Mazda CX-5 mit Sports-Line Plus Paket. Gültig für sofort verfügbare Aktionsmodelle bei Zulassung auf Privatkunden und Gewerbekunden ohne Rahmenabkommen bis zum 31.03.2021 und nicht mit anderen Aktionen/Nachlässen kombinierbar."
+
+  },
+  "lead": {
+    "details": {
+      "label": "Persönliche Angaben"
+    },
+    "phone": {
+      "label": "Telefonnummer"
+    },
+    "mail": {
+      "default": "",
+      "label": "E-Mail*"
+    },
+    "message": {
+      "defaultQuestion": "",
+      "defaultRequest": "Guten Tag, ich interessiere mich für dieses Fahrzeug und würde mich freuen, wenn Sie sich mit mir in Verbindung setzen würden.",
+      "label": "Ihre Nachricht*"
+    },
+    "name": {
+      "default": "",
+      "label": "Name*"
+    },
+    "surnameDefault": "",
+    "surnameLabel": "Nachname*"
+  },
+  "offer": {
+    "availability": {
+      "inAFewDays": "In wenigen Tagen verfügbar",
+      "instantly": "Sofort verfügbar",
+      "label": "Verfügbar",
+      "soon": "Bald verfügbar"
+    },
+    "color": {
+      "label": "Lackierung"
+    },
+    "condition": {
+      "dealerApproval": "Händlerzulassung",
+      "newCars": "Neuwagen",
+      "newVehicle": "Neuwagen",
+      "usedCars": "Gebrauchtwagen"
+    },
+    "contact": {
+      "dataProtection": "Für die Planung Ihrer Fahrzeuganfrage benötigen wir Ihre persönlichen Daten",
+      "dealer": "Händler kontaktieren",
+      "frequentRequest": {
+        "appointment": "Ich möchte einen Beratungstermin vereinbaren.",
+        "requestQuote": "Bitte lassen Sie mir ein Angebot zukommen.",
+        "testDrive": "Ich würde gerne eine Probefahrt vereinbaren.",
+        "tradeIn": "Ich möchte mein jetziges Fahrzeug in Zahlung geben."
+      },
+      "optIn": {
+        "line": "Einwilligung in werbliche Kommunikation per Email & Telefon:",
+        "line2": "Die Einwilligung kann ich jederzeit widerrufen:",
+        "mail": "per E-Mail",
+        "phone": "per SMS / Telefon"
+      },
+      "policyInfo": "Für die Planung Ihrer Fahrzeuganfrage benötigen wir Ihre persönlichen Daten ",
+      "question": {
+        "label": "Eine Frage stellen",
+        "info": "Die COVID-19-Pandemie stellt uns alle immer wieder vor große Herausforderungen. Aufgrund der aktuellen Situation kann es zu Verzögerungen kommen. Wir versuchen jedoch, den Service für Sie so gut wie möglich aufrecht zu erhalten."
+      },
+      "request": {
+        "label": "Angebot anfordern",
+        "confirmation": "Hallo [Name],\n\n\nVielen Dank für Ihre Nachricht. Sie werden in Kürze eine Antwort an [name@email.de] erhalten.\n\nBis bald,\n\nIhr [Autohaus Bäckmann GmbH] Team",
+        "info": "Die COVID-19-Pandemie stellt uns alle immer wieder vor große Herausforderungen. Aufgrund der aktuellen Situation kann es zu Verzögerungen kommen. Wir versuchen jedoch, den Service für Sie so gut wie möglich aufrecht zu erhalten."
+      },
+      "reserve": {
+        "label": "Fahrzeug reservieren",
+        "info": "Die COVID-19-Pandemie stellt uns alle immer wieder vor große Herausforderungen. Aufgrund der aktuellen Situation kann es zu Verzögerungen kommen. Wir versuchen jedoch, den Service für Sie so gut wie möglich aufrecht zu erhalten."
+      },
+      "reswerve": {
+        "confirmation": "Vielen Dank für Ihre Reservierungsanfrage. Dieses Fahrzeug wird nun für eine Dauer von maximal 5 Tagen als reserviert sichtbar im Internet angezeigt. \n\nBitte beachten Sie: \n\nIhre Reservierung ist unverbindlich. Die Reservierung bezieht sich ausschließlich auf das Fahrzeug, nicht auf den Fahrzeugpreis, Zubehör oder Finanzleistungen. \n\nDie Reservierung bedarf einer Bestätigung durch den zuständigen Händler. Zur Verifizierung der Reservierung wird sich der Händler mit Ihnen über den von Ihnen angegebenen Kontaktmöglichkeit Verbindung aufnehmen. \n\nAus dieser Reservierung erwächst kein rechtlicher Anspruch auf das Fahrzeug. "
+      },
+      "send": "Nachricht senden"
+    },
+    "contactDealer": "Angebot anfragen",
+    "crosssellingLine": "Diese Fahrzeuge könnten Ihnen auch gefallen",
+    "distance": {
+      "label": "Entfernung",
+      "unit": "{value} km"
+    },
+    "drivenDistanceUnit": {
+      "kilometer": "km"
+    },
+    "initialRegistration": "Erstzulassung",
+    "initialRegistrationMonth": {
+      "jan": "Jan"
+    },
+    "installmentDetails": "Laufleistung {value} Monate, jährl. Fahrleistung {value} km, Sonderzahlung {value}€, Sollzinssatz (gebunden) p.a. {value}%, effektiver Jahreszins {value}% , Gesamtbetrag {value}€.",
+    "installmentDetailsFinance": "Mtl. Finanzierungsrate",
+    "installmentLine": "Mtl. Leasingrate",
+    "installmentValue": {
+      "number": "{value}€³",
+      "text": "ab {value}€ im Monat³"
+    },
+    "location": {
+      "label": "Ihr Standort",
+      "useMyCurrentLocation": "Meinen Standort benutzen"
+    },
+    "offerRequest": "Angebot anfragen",
+    "optionsForFreeLabel": "Gratis Ausstattungsoption",
+    "price": {
+      "discount": "- {value} €",
+      "discounted": "{value}€²",
+      "discountLabel": "Ihr Preisvorteil",
+      "msrp": "{value}€",
+      "msrpDiscounted": "{value}€",
+      "msrpLabel": "UPE inkl. Überführung"
+    },
+    "redSaleLabel": "",
+    "reserve": "Fahrzeug reservieren",
+    "topOffer": "Top Angebot",
+    "total": "Angebotspreis",
+    "upsellingAccessoiresLabel": "Zubehör",
+    "upsellingAccessoiresLabelAddition": "(einschließlich Installationskosten)",
+    "upsellingCarConnectionLabel": "Anschlussgarantie",
+    "upsellingLabel": "Wählen Sie Ihr Zubehör"
+  },
+  "ui": {
+    "back": "Zurück",
+    "backToOverviewPage": "Zurück zu allen Fahrzeugen",
+    "closeIcon": "schließen",
+    "displayNumber": "{value} / {value}",
+    "enlargeImage": "Bild vergrößern",
+    "expand": "ausklappen",
+    "moreOptions": "mehr Optionen",
+    "next": "Vor",
+    "nextImage": "Nächstes Bild",
+    "previous": "Zurück",
+    "previousImage": "Vorheriges Bild",
+    "seeMore": "Mehr anzeigen",
+    "share": "Teilen",
+    "shrink": "einklappen",
+    "toAllFilters": "Alle Filter"
+  },
+  "wishlist": {
+    "offerAdd": "Zur Wishlist hinzufügen",
+    "offerRemove": "Von der Wishlist entfernen"
+  },
+  "redSaleBanner" : {
+    "label": "Jetzt Mehrwertbonus sichern."
+  }
+}

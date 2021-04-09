@@ -1,0 +1,362 @@
+{
+  "car": {
+    "body": {
+      "5Door": "5-Door"
+    },
+    "consumption": {
+      "ce": "",
+      "ev": ""
+    },
+    "data": {
+      "extraTitle": "Vehicle Data",
+      "Color": "Color",
+      "Comfort": "Comfort",
+      "Entertainment": "Entertainment",
+      "Exterieur": "Exterieur",
+      "Infotainment": "Infotainment",
+      "Interieur": "Interieur",
+      "Safety": "Safety",
+      "PhoneEmbeddment": "",
+      "BOSESound": "",
+      "Speakerphone": "",
+      "DigitalRadioTuner": "",
+      "MZDConnect": "",
+      "NavigationSystem": "",
+      "AuctomaticAirCon": "",
+      "HeadUp": "",
+      "SeatHeating": "",
+      "SteeringWheelHeating": "",
+      "SeatClimateControl": "",
+      "AdaptiveCruiseControl": "",
+      "KeylessAccess": "",
+      "CruiseControl": "",
+      "RearViewCamera": "",
+      "LEDHeadlights": "",
+      "ParkingAid": "",
+      "360Minitor": "",
+      "LightAlloyRims": "",
+      "DarkenedWindows": "",
+      "SlidingGlassRoof": "",
+      "FogLights": "",
+      "ParkingAssistance": "",
+      "BiXenonLights": "",
+      "LightRainSensor": "",
+      "TrafficSignRecognition": "",
+      "LaneChangeAssistant": "",
+      "LaneKeepAssistant": "",
+      "CityEmergencyBrakeAssistant": "",
+      "Fabric": "",
+      "Leather": "",
+      "Other": ""
+    },
+    "doors": {
+      "label": "Doors"
+    },
+    "driveType": {
+      "4WD": "4WD (four wheel drive)",
+      "FWD": "FWD (front wheel drive)",
+      "label": "Drive Type",
+      "RWD": "RWD (rear wheel drive)"
+    },
+    "efficiencyLabel": {
+      "bAndHigher": "B and higher",
+      "dAndHigher": "D and higher",
+      "label": "CO₂-Label"
+    },
+    "emission": "",
+    "emissionClass": {
+      "label": "Co² Efficiency Class*"
+    },
+    "emissionConsumption": {
+      "label": "Emissions / Fuel consumption"
+    },
+    "engine": "",
+    "engineExtras": {
+      "awd": "",
+      "electric": "",
+      "mHybrid": ""
+    },
+    "enginePowerUnit": {
+      "horsePower": "",
+      "kilowatts": ""
+    },
+    "engineType": {
+      "skyactivG": ""
+    },
+    "extra": {
+      "boseSoundSystem": ""
+    },
+    "extras": "",
+    "fuel": "",
+    "fuelType": {
+      "diesel": "Diesel",
+      "electric": "Electro",
+      "gasoline": "",
+      "hybrid": "Mild Hybrid",
+      "label": "Fuel Type",
+      "petrol": "Petrol"
+    },
+    "grade": {
+      "exclusiveLine": "Exclusive Line",
+      "primeLine": "",
+      "selection": ""
+    },
+    "modelName": {
+      "mazda3Fastback": ""
+    },
+    "optionalAccessoires": {
+      "alloyRims": {
+        "label": "Alloy rims 18''",
+        "price": "+ {value} €"
+      },
+      "trunkStorage": {
+        "label": "Trunk storage",
+        "price": "+ {value} €"
+      }
+    },
+    "optionalAccessoiresLabel": "Optional accessoires",
+    "overview": "Vehicle overview",
+    "power": {
+      "label": "Power",
+      "unit": "hp/kw"
+    },
+    "reach": "",
+    "reachUnit": {
+      "kilometer": ""
+    },
+    "seats": {
+      "label": "Seats"
+    },
+    "showDetails": "",
+    "transmission": {
+      "label": "Transmission"
+    },
+    "transmissionType": {
+      "automatic": {
+        "hl": "",
+        "sl": ""
+      },
+      "manual": {
+        "hl": "",
+        "sl": ""
+      },
+      "manual5Gear": {
+        "hl": ""
+      }
+    },
+    "type": {
+      "label": "Type"
+    }
+  },
+  "dealer": {
+    "callLine": "You prefer direct contact? \nGive us a call!",
+    "distance": "{value} km away",
+    "distanceValue": "",
+    "imprint": "Imprint",
+    "listing": {
+      "label": "Your dealers"
+    },
+    "locationLabel": "Where's my car?",
+    "moreInfo": "More info",
+    "openingHours": "Open until [timevalue]",
+    "services": "Services"
+  },
+  "filter": {
+    "brand": {
+      "HL": "Brands"
+    },
+    "budget": {
+      "currency": "",
+      "HL": "Your Budget",
+      "input": {
+        "maximum": "",
+        "range": ""
+      }
+    },
+    "carDetails": {
+      "HL": ""
+    },
+    "colorAndData": {
+      "HL": "Color and Furnishing"
+    },
+    "condition": {
+      "HL": "Condition"
+    },
+    "generalHeadline": "What are you looking for?",
+    "grade": {
+      "HL": "Your grade"
+    },
+    "HL": "All filters",
+    "initialRegistration": {
+      "label": "Initial registration"
+    },
+    "installmentRate": {
+      "label": "monthly rate"
+    },
+    "location": {
+      "HL": "Close to you"
+    },
+    "maximumValue": {
+      "label": "maximum"
+    },
+    "mileage": {
+      "label": "Mileage",
+      "unit": ""
+    },
+    "minimumValue": {
+      "label": "minimum"
+    },
+    "models": {
+      "HL": "Your Models"
+    },
+    "totalPrice": {
+      "label": "fixed price"
+    }
+  },
+  "footnote": {
+    "co2Emissions": "",
+    "dealerPrice": "",
+    "installmentValue": "",
+    "financeClassic": "",
+    "reservation": "***Reservation becomes only valid when dealers confirms the reservation",
+    "wltp": ""
+  },
+  "lead": {
+    "details": {
+      "label": "Personal details"
+    },
+    "mail": {
+      "default": "Text Input",
+      "label": "E-mail*"
+    },
+    "message": {
+      "defaultQuestion": "Text Input",
+      "defaultRequest": "Hello, I am interested in this vehicle and would be pleased if you’d get in touch with me.",
+      "label": "Your message*"
+    },
+    "name": {
+      "default": "Text Input",
+      "label": "Name*"
+    },
+    "surnameDefault": "Text Input",
+    "surnameLabel": "Surname*"
+  },
+  "offer": {
+    "availability": {
+      "inAFewDays": "",
+      "instantly": "",
+      "label": "Available",
+      "soon": ""
+    },
+    "color": {
+      "label": "Color"
+    },
+    "condition": {
+      "dealerApproval": "Dealer approval",
+      "newCars": "New cars",
+      "newVehicle": "New vehicle",
+      "usedCars": "Used cars"
+    },
+    "contact": {
+      "dataProtection": "Yes, I agree to the collection, processing and use of my personal data in accordance with the data protection declaration of consent.",
+      "dealer": "Contact dealer",
+      "frequentRequest": {
+        "appointment": "I would like to arrange a consultation appointment.",
+        "requestQuote": "I would like to request a quote.",
+        "testDrive": "I would like to arrange a test drive.",
+        "tradeIn": "I would like to trade in my current vehicle."
+      },
+      "optIn": {
+        "line": "I would like to receive commercial communications from Mazda:",
+        "mail": "per email",
+        "phone": "per sms / telephone"
+      },
+      "policyInfo": "We need your personal data to contact you. View our privacy policy.",
+      "question": {
+        "label": "Ask a question"
+      },
+      "request": {
+        "confirmation": "Hi [Name],\n\n\nThanks for your message. You will receive an answer shortly at [name@email.de].\n\nSee you soon,\n\nyour [Autohaus Bäckmann GmbH] Team",
+        "info": "Regardless of if you have a specific concern or are just looking to get a few questions answered, feel free to send us a message."
+      },
+      "reserve": {
+        "info": {
+          "step1HL": "1. Send",
+          "step1SL": "send in your reservation",
+          "step2HL": "2. Reserve",
+          "step2SL": "car is reserved for 5 days***",
+          "step3HL": "3. Align",
+          "step3SL": "align details with salesman",
+          "step4HL": "4. Own",
+          "step4SL": "Own your mazda"
+        }
+      },
+      "reswerve": {
+        "confirmation": ""
+      },
+      "send": "Send message"
+    },
+    "contactDealer": "Contact dealer",
+    "crosssellingLine": "Other Mazda costumers viewed",
+    "distance": {
+      "label": "Distance",
+      "unit": ""
+    },
+    "drivenDistanceUnit": {
+      "kilometer": ""
+    },
+    "initialRegistration": "",
+    "initialRegistrationMonth": {
+      "jan": ""
+    },
+    "installmentDetails": "",
+    "installmentDetailsFinance": "",
+    "installmentLine": "",
+    "installmentValue": {
+      "number": "",
+      "text": "from {value} € monthly"
+    },
+    "location": {
+      "label": "Location",
+      "useMyCurrentLocation": "Use my current location"
+    },
+    "offerRequest": "",
+    "price": {
+      "discount": "- {value} €",
+      "discounted": "",
+      "discountLabel": "Dealer discount",
+      "msrp": "",
+      "msrpDiscounted": "",
+      "msrpLabel": "MSRP incl. transportation"
+    },
+    "redSaleLabel": "",
+    "reserve": "Reserve my car",
+    "topOffer": "",
+    "total": "Final price",
+    "upsellingAccessoiresLabel": "Optional accessoires",
+    "upsellingAccessoiresLabelAddition": "(including installation costs)",
+    "upsellingCarConnectionLabel": "New car connection guarantee",
+    "upsellingLabel": "Choose your package"
+  },
+  "ui": {
+    "back": "Back",
+    "backToOverviewPage": "Back to all cars",
+    "closeIcon": "Close",
+    "displayNumber": "{value} / {value}",
+    "enlargeImage": "Enlarge Image",
+    "expand": "",
+    "moreOptions": "more options",
+    "next": "Next",
+    "nextImage": "",
+    "previous": "Previous",
+    "previousImage": "",
+    "seeMore": "See more",
+    "share": "Share",
+    "shrink": "",
+    "toAllFilters": "All filters"
+  },
+  "wishlist": {
+    "offerAdd": "",
+    "offerRemove": ""
+  }
+}

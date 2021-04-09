@@ -1,0 +1,66 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:  sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+  margin: 0 auto;
+  outline: none;
+}
+
+li {
+  pointer-events: auto;
+  list-style-type: none;
+  line-height: normal;
+}
+
+ul li::before {
+  font-size: 0;
+  content: none;
+}
+
+ol li::before,
+ul li::before {
+  color: transparent;
+  position: relative;
+  transform: none;
+}
+
+p,
+a {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.disable-hover,
+.disable-hover * {
+  pointer-events: none !important;
+}
+
+.disable-scroll {
+  overflow: hidden !important;
+}
+
+.description-text {
+  display: block;
+  column-count: 2;
+  column-gap: 50px;
+}
+
+#page-wrap {
+  min-height: 1800px;
+}

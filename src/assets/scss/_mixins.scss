@@ -1,0 +1,119 @@
+// margin and padding shorthands
+$space-prefixes: (
+	p: padding,
+	px: padding,
+	py: padding,
+	pxy: padding,
+	pt: padding-top,
+	pr: padding-right,
+	pb: padding-bottom,
+	pl: padding-left,
+	m: margin,
+	mx: margin,
+	my: margin,
+	mxy: margin,
+	mt: margin-top,
+	mr: margin-right,
+	mb: margin-bottom,
+	ml: margin-left,
+) !default;
+$space-values: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 23, 25, 28, 30) !default;
+$breakpoints: (
+	// Extra small screen / phone
+	xs: 0,
+	// Small screen / phone
+	sm: 500px,
+	// Medium screen / tablet
+	md: 768px,
+	// Large screen / desktop
+	lg: 991px,
+	// Extra large screen / wide desktop
+	xl: 1280px
+) !default;
+
+@mixin make-space($values, $prefixes, $breakpoints) {
+	@each $breakpoint-name, $breakpoint-value in $breakpoints {
+		// if xs value = 0, set it global without media queries
+		@if ($breakpoint-value == 0) {
+			@each $attr-short, $attr-long in $prefixes {
+				@each $value in $values {
+					@if ($attr-short == pxy or $attr-short == mxy) {
+						@each $value2 in $values {
+							[class].#{$attr-short}-#{$breakpoint-name}-#{$value}-#{$value2} {
+								#{$attr-long}: #{$value2}#{"rem"} #{$value}0#{"px"};
+							}
+						}
+					} @else {
+						[class].#{$attr-short}-#{$breakpoint-name}-#{$value} {
+							@if ($attr-short == py or $attr-short == my) {
+								#{$attr-long}: #{$value}0#{"px"} 0;
+							} @else if ($attr-short == px or $attr-short == mx) {
+								#{$attr-long}: 0 #{$value}0#{"px"};
+							} @else {
+								#{$attr-long}: #{$value}0#{"px"};
+							}
+						}
+					}
+				}
+			}
+		}
+		// breakpoint values that not equal to 0
+		@else {
+			@media screen and (min-width: $breakpoint-value) {
+				@each $attr-short, $attr-long in $prefixes {
+					@each $value in $values {
+						@if ($attr-short == pxy or $attr-short == mxy) {
+							@each $value2 in $values {
+								[class].#{$attr-short}-#{$breakpoint-name}-#{$value}-#{$value2} {
+									#{$attr-long}: #{$value2}0#{"px"} #{$value}0#{"px"};
+								}
+							}
+						} @else {
+							[class].#{$attr-short}-#{$breakpoint-name}-#{$value} {
+								@if ($attr-short == py or $attr-short == my) {
+									#{$attr-long}: #{$value}0#{"px"} 0;
+								} @else if ($attr-short == px or $attr-short == mx) {
+									#{$attr-long}: 0 #{$value}0#{"px"};
+								} @else {
+									#{$attr-long}: #{$value}0#{"px"};
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include make-space($space-values, $space-prefixes, $breakpoints);
+
+@mixin laptop {
+	@media (max-width: $screen-xl) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media (max-width: $screen-l) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media (max-width: $screen-xs) {
+		@content;
+	}
+}
+
+@mixin breakpoint-up($size){
+  @media (min-width: $size) {
+		@content;
+	}
+}
+
+@mixin breakpoint-down($size){
+  @media (max-width: $size) {
+		@content;
+	}
+}

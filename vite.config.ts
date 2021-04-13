@@ -1,5 +1,11 @@
 import Vue from "@vitejs/plugin-vue";
+const path = require("path");
 
-export default {
-  plugins: [Vue()],
+const config = {
+	plugins: [Vue()],
+	alias: {
+		"/@/": path.resolve(__dirname, "src"),
+	},
 };
+
+export default config;

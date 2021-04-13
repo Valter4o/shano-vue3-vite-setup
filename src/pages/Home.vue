@@ -5,11 +5,13 @@
 </template>
 
 <script lang="ts">
-import Button from "../components/atoms/BaseButton.vue";
+import { inject } from "vue";
+import Button from "/@/components/atoms/BaseButton.vue";
 
 export default {
 	components: { Button },
 	setup() {
+		const ctx = inject("context");
 		return {};
 	},
 };
@@ -22,7 +24,7 @@ export default {
 	width: 500px;
 	height: 300px;
 	border: red solid;
-  padding-top: 120px;
-  box-sizing: border-box;
+	padding-top: 120px;
+	box-sizing: border-box;
 }
 </style>

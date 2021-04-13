@@ -5,14 +5,18 @@
 </template>
 
 <script lang="ts">
-import { useI18n } from "vue-i18n";
+import { provide } from "vue";
+import { useStore } from "vuex";
+import { useRoute, useRouter } from "vue-router";
 
 export default {
   setup() {
-    const i18n = useI18n({ useScope: "global" });
-    // @ts-ignore
-    localStorage.setItem("locale", JSON.stringify(i18n.messages.value.de));
-
+    const context = {
+      $store: useStore(),
+      $router: useRouter(),
+      $route: useRoute(),
+    };
+    provide("context", context);
     return {};
   },
 };

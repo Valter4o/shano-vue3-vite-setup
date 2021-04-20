@@ -106,14 +106,14 @@ $breakpoints: (
 	}
 }
 
-@mixin breakpoint-up($size){
-  @media (min-width: $size) {
+@mixin breakpoint-up($size) {
+	@media (min-width: $size) {
 		@content;
 	}
 }
 
-@mixin breakpoint-down($size){
-  @media (max-width: $size) {
+@mixin breakpoint-down($size) {
+	@media (max-width: $size) {
 		@content;
 	}
 }
